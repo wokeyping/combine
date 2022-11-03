@@ -6,12 +6,11 @@ import (
 	"github.com/Luxurioust/excelize"
 	"log"
 	"os"
-	"sort"
 	"strings"
 )
 
 func main() {
-	f, err := excelize.OpenFile("./combine/combine.xlsx")
+	f, err := excelize.OpenFile("combine.xlsx")
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -44,8 +43,9 @@ func main() {
 		}
 		//fmt.Println()
 	}
-	sort.Strings(sevs)
-	filePath := "F:/Goproject/src/combine/combine.txt"
+	//sort.Strings(sevs)
+	//filePath := "F:/Goproject/src/combine/combine.txt"
+	filePath := "combine.txt"
 	file, err := os.OpenFile(filePath, os.O_WRONLY|os.O_CREATE, 0666)
 	if err != nil {
 		fmt.Println("文件打开失败", err)

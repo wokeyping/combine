@@ -1,0 +1,138 @@
+'160,161,162,163',
+'174,175,176,177',
+'186,187',
+'84,88,92',
+'96,100',
+'142,143',
+'147,148',
+'138,141',
+'168,169,170',
+'171,172,173',
+'178,179',
+'22,26',
+'30,34',
+'38,43',
+'64,70',
+'182,183',
+'188,189',
+'157,158,159',
+'164,165,166,167',
+'184,185',
+'74,81',
+'149,150',
+'152,153',
+'155,156',
+'105,109',
+
+
+
+===============export redis===================
+php exportHeRedis.php 105,109,84,88,92,96,100,142,143,147,148,160,161,162,163,174,175,176,177,186,187,178,179,22,26,30,34,38,43,64,70,138,141,168,169,170,171,172,173,182,183,188,189,74,81,149,150,152,153,155,156,157,158,159,164,165,166,167,184,185 > /tmp/he20220429 2>&1
+
+
+
+===============built table===================
+php buidetable.php 105,186,84,96,142,147,160,174,171,178,22,30,38,64,138,168,182,188,184,74,149,152,155,157,164
+
+
+
+===============merge name===================
+php mergeNameYn.php 109
+php mergeNameYn.php 143
+php mergeNameYn.php 148
+php mergeNameYn.php 161
+php mergeNameYn.php 162
+php mergeNameYn.php 163
+php mergeNameYn.php 175
+php mergeNameYn.php 176
+php mergeNameYn.php 177
+php mergeNameYn.php 187
+php mergeNameYn.php 88
+php mergeNameYn.php 92
+php mergeNameYn.php 100
+php mergeNameYn.php 43
+php mergeNameYn.php 70
+php mergeNameYn.php 141
+php mergeNameYn.php 169
+php mergeNameYn.php 170
+php mergeNameYn.php 172
+php mergeNameYn.php 173
+php mergeNameYn.php 179
+php mergeNameYn.php 26
+php mergeNameYn.php 34
+php mergeNameYn.php 183
+php mergeNameYn.php 189
+php mergeNameYn.php 153
+php mergeNameYn.php 156
+php mergeNameYn.php 158
+php mergeNameYn.php 159
+php mergeNameYn.php 165
+php mergeNameYn.php 166
+php mergeNameYn.php 167
+php mergeNameYn.php 185
+php mergeNameYn.php 81
+php mergeNameYn.php 150
+
+
+
+===============php start===================
+php start.php 157
+php start.php 158
+php start.php 159
+php start.php 164
+php start.php 165
+php start.php 166
+php start.php 167
+php start.php 184
+php start.php 185
+php start.php 74
+php start.php 81
+php start.php 149
+php start.php 150
+php start.php 152
+php start.php 153
+php start.php 155
+php start.php 156
+php start.php 105
+php start.php 109
+php start.php 160
+php start.php 161
+php start.php 162
+php start.php 163
+php start.php 174
+php start.php 175
+php start.php 176
+php start.php 177
+php start.php 186
+php start.php 187
+php start.php 84
+php start.php 88
+php start.php 92
+php start.php 96
+php start.php 100
+php start.php 142
+php start.php 143
+php start.php 147
+php start.php 148
+php start.php 138
+php start.php 141
+php start.php 168
+php start.php 169
+php start.php 170
+php start.php 171
+php start.php 172
+php start.php 173
+php start.php 178
+php start.php 179
+php start.php 22
+php start.php 26
+php start.php 30
+php start.php 34
+php start.php 38
+php start.php 43
+php start.php 64
+php start.php 70
+php start.php 182
+php start.php 183
+php start.php 188
+php start.php 189
